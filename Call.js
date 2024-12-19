@@ -26,7 +26,7 @@ const Neha = {
 
 Bharat.printData(); // In this we directly call Bharat. bcoz it is owned by the Bharat obj.. it is the part of Bharat obj so we use . with bharat bofore printData..
 Bharat.printData.call(Neha); //In this we call method for Neha obj. Means its working for neha now..
-
+//function same behavior with all object when we use call like this..
 // ## we can use this with many ways. the second way is here..
 // we use 1 after every variable, which we used above for better understanding..
 // in this example i remove printData1 from the Bharat1. Now it not the property of Bharat1.
